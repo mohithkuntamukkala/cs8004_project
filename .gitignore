@@ -1,1 +1,28 @@
 /PlantVillage
+# venv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# MLflow
+mlruns/
+
+# DVC cache
+.dvc/cache/
+.dvc/tmp/
+
+# Model artifacts
+artifacts/
+*.pt
+*.pth
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
