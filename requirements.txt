@@ -1,0 +1,15 @@
+torch
+torchvision
+mlflow
+dvc
+evidently
+pandas
+scikit-learn
+tqdm
+torchaudio
+numpy
+PyYAML
+Pillow
+streamlit
+matplotlib
+
