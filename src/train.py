@@ -41,8 +41,8 @@ def main():
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(
         model.classifier[1].parameters(),
-        lr=params["train"]["lr"],
-        weight_decay=params["train"]["weight_decay"]
+        lr=1e-3,
+        weight_decay=1e-4
     )
 
     with mlflow.start_run() as run:
