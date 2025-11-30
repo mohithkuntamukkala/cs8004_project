@@ -1,0 +1,18 @@
+data:
+  root_dir: "Plantvillage"
+  train_dir: "Plantvillage/train"
+  val_dir: "Plantvillage/val"
+  img_size: 224
+  num_workers: 4
+
+train:
+  batch_size: 32
+  lr: 0.001
+  num_epochs: 10
+  weight_decay: 1e-4
+  seed: 42
+
+mlflow:
+  experiment_name: "PlantVillage_MobileNet"
+  tracking_uri: "file:./mlruns"
+  model_name: "PlantVillage_MobileNet"

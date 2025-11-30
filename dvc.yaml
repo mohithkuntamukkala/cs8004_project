@@ -1,0 +1,19 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - src/utils.py
+      - params.yaml
+      - Plantvillage
+    outs:
+      - artifacts/
+
+  drift:
+    cmd: python src/drift.py
+    deps:
+      - src/drift.py
+      - val_predictions.csv
+      - reference_val_predictions.csv
+    outs:
+      - drift_report.html

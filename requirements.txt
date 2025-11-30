@@ -1,16 +1,15 @@
 torch
 torchvision
+torchaudio
+
 mlflow
 dvc
 evidently
-pandas
-scikit-learn
-tqdm
-torchaudio
-numpy
-PyYAML
-Pillow
 streamlit
-matplotlib
-timm
 
+pandas
+numpy
+scikit-learn
+matplotlib
+pyyaml
+Pillow
