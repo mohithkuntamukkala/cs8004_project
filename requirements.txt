@@ -12,4 +12,5 @@ PyYAML
 Pillow
 streamlit
 matplotlib
+timm
 
